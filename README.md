@@ -2,7 +2,7 @@
 
 This repository contains my solution to the Frontend Mentor - Blog preview card challenge. The challenge was to build out a blog preview card and achieve a design as close to the provided design as possible. This document outlines my approach, the technologies I used, and some of the challenges I faced during the development process.
 
-![Final Solution Screenshot](.public\design\Screenshot 2024-07-11 123153.png)
+![Final Solution Screenshot](.public/design/Screenshot 2024-07-11 123153.png)
 
 ## Overview
 
