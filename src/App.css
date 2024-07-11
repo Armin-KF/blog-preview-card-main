@@ -1,0 +1,57 @@
+.App-header {
+  background-color: hsl(47, 88%, 63%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#my-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  gap: 20px;
+  height: 350px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
+}
+
+#my-card-img {
+  position: relative;
+  width: 85%;
+  height: 50%;
+  border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  margin-bottom: 150px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#my-card-h6 {
+  margin-top: -175px;
+  margin-right: 145px;
+  width: 50px;
+  height: 15px;
+  background-color: yellow;
+  color: black;
+  font-size: 12px;
+  padding: 3px;
+  padding-left: 8px;
+  border-radius: 5px;
+  font-family: "Figtree", sans-serif;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../public/assets/fonts/static/Figtree-SemiBold.ttf")
+    format("truetype");
+}
