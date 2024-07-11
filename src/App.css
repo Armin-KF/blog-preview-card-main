@@ -16,8 +16,8 @@
   align-items: center;
   background-color: aliceblue;
   gap: 20px;
-  height: 350px;
-  width: 250px;
+  height: 400px;
+  width: 300px;
   border-radius: 15px;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 1);
@@ -28,9 +28,7 @@
   position: relative;
   width: 85%;
   height: 50%;
-  border-radius: 25px 25px 25px 25px;
-  -webkit-border-radius: 25px 25px 25px 25px;
-  -moz-border-radius: 25px 25px 25px 25px;
+  border-radius: 35px;
   margin-bottom: 150px;
   overflow: hidden;
   display: inline-block;
@@ -45,13 +43,96 @@
   color: black;
   font-size: 12px;
   padding: 3px;
-  padding-left: 8px;
+  padding-left: 4px;
   border-radius: 5px;
   font-family: "Figtree", sans-serif;
+  font-weight: 800;
+  margin-left: 20px;
+}
+
+#my-card-p {
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: -20px;
+  color: black;
+  margin-left: 20px;
+}
+
+#my-card-h1 {
+  font-family: "Figtree", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: black;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+#my-card-h1:hover {
+  color: hsl(47, 88%, 63%);
+}
+
+#my-card-text {
+  font-family: "Figtree", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+  margin-top: -10px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#profile-pic {
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#profile-name {
+  font-family: "Figtree", sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  color: black;
+  margin-top: -25px;
+  margin-left: 45px;
+}
+
+@media (max-width: 600px) {
+  #my-card {
+    height: 400px;
+    width: 250px;
+  }
+
+  .App-header {
+    width: 100%;
+  }
 }
 
 @font-face {
   font-family: "Figtree";
   src: url("../public/assets/fonts/static/Figtree-SemiBold.ttf")
     format("truetype");
+  font-weight: 600; /* SemiBold */
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../public/assets/fonts/static/Figtree-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800; /* ExtraBold */
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../public/assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400; /* Normal weight for Italic */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("../public/assets/fonts/Figtree-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 400; /* Normal weight */
 }
