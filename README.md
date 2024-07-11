@@ -16,8 +16,6 @@ The goal of this challenge was to replicate a blog preview card based on a desig
 
 ## View Solution
 
-You can view my solution live at [GitHub Pages](#).
-
 For more details on the challenge, visit the [challenge page on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
 Feel free to reach out to me for any feedback or questions!
